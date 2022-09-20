@@ -1,0 +1,13 @@
+{
+  "name": "surreal-playground",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "concurrently 'cd cjs-with-import && pnpm start' 'cd cjs-with-require && pnpm start' 'cd esm-with-import && pnpm start'"
+  },
+  "devDependencies": {
+    "concurrently": "^7.4.0"
+  }
+}
